@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Data Types</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+            ul.myul{
+                list-style-type: none;
+            }
+            #new1{
+                color:red;
+            }
+        </style>
+        <script src="./js/script.js"></script>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <p id="new1"></p>
+        <p id="new2">Hello</p>
+        <p data-news = "news2"></p>
+        <h1>Javascript Data Types</h1>
+        <ul class="myul">
+            <li>String --> ""/''/``</li>
+            <li>Number --> 1,2,3</li>
+            <li>Object --> {}</li>
+        </ul>
+        <script>
+
+           let news1 = {
+                w1: 'PM', //string Data Type
+                w2: "Modi's", //string Data Type
+                w3: `address`, //string Data Type
+                w4: 'to', //string Data Type
+                w5: "US", //string Data Type
+                w6: `Congress`, //string Data Type
+                w7: 'showed', //string Data Type
+                w8: "that", //string Data Type
+                w9: `both`, //string Data Type
+                w10: 'Democrats', //string Data Type
+                w11: "and", //string Data Type
+                w12: `Republicans`, //string Data Type
+                w13: 'are', //string Data Type
+                w14: "invested", //string Data Type
+                w15: `in`, //string Data Type
+                w16: 'the', //string Data Type
+                w17: "ties", //string Data Type
+                w18: `as`, //string Data Type
+                w19: 'they', //string Data Type
+                w20: "feel", //string Data Type
+                w21: `he`, //string Data Type
+                w22: 'has', //string Data Type
+                w23: "the", //string Data Type
+                w24: `ability`, //string Data Type
+                w25: 'to', //string Data Type
+                w26: "stand", //string Data Type
+                w27: `up`, //string Data Type
+                w28: 'to', //string Data Type
+                w29: "challenge", //string Data Type
+            
+            }
+
+            var n1 = news1.w1+' '+news1.w2+" "+news1.w3+` `+news1.w4+' '+news1.w5+" "+news1.w6+` `+news1.w7+' '+news1.w8+" "+news1.w9+` `+news1.w10+' '+news1.w11+" "+news1.w12+` `+news1.w13+' '+news1.w14+" "+news1.w15+` `+news1.w16+' '+news1.w17+" "+news1.w18+` `+news1.w19+' '+news1.w20+" "+news1.w21+` `+news1.w22+' '+news1.w23+" "+news1.w24+` `+news1.w25+' '+news1.w26+" "+news1.w27+` `+news1.w28+' '+news1.w29 ;
+
+            // 4th way to see the js output
+            var y = document.getElementById("new1");
+            y.innerHTML= 'Hii';
+            y.style.color = 'blue';
+           
+            let x = document.querySelector('p[data-news="news2"]');
+            x.innerHTML = n1;
+            x.style.color = "red";
+
+            const _a = 10;
+            const _b = 20;
+            console.log(_a + _b);
+
+            var $a = 2;
+            var $b = 3;
+            console.log($a+$b);
+            
+        </script>
+    </body>
+</html>
